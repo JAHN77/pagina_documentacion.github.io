@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+
+}
+
+
+
+#navbar{
+    background-color: rgba(109, 107, 107, 0.26);
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    border-right:2px solid rgba(0, 0, 0, 0.349);
+    
+    
+}
+
+h2{
+    margin: 0;
+    text-align: center;
+}
+
+
+#lista_nav{
+    list-style-type: none;
+    text-decoration: none;
+    width: 100%;
+    padding: 0;
+    
+}
+
+
+.lista{
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(253, 253, 253, 0.911);  
+    border-top:1px solid black ;
+}
+
+a{
+    text-decoration: none;
+    
+    color: black;
+    
+}
+
+a:hover{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+#main-doc{
+    width:80%;
+    position: absolute;
+    left: 20%;
+}
+
+header,p,li{
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+/* laptop*/
+@media screen and (max-width: 1023px) and (min-width: 769px){
+    #tribute-info{
+        margin:auto 200px;
+    }
+
+    .imagen{
+        width: 100%;
+        height: auto;
+    }
+}
